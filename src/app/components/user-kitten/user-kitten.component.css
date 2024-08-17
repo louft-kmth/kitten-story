@@ -1,0 +1,11 @@
+section {
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+
+ul {
+  margin: 12px;
+  font-weight: 500;
+  color: rgb(147, 25, 135);
+}

@@ -1,0 +1,8 @@
+<h1>Adopt a kitten</h1>
+
+<app-user-kitten [kittenNames]="kittenNames"></app-user-kitten>
+<app-list-kitten (kittenAdopted)= "filterToUser($event)" [newKittens]="kittenList"></app-list-kitten>
+<app-create-kitten (kittenCreated)="addKitten($event)"></app-create-kitten>
+
+
+<router-outlet></router-outlet>
